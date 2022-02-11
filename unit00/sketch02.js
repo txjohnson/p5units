@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
- //   background(255, 255, 255);
+    background(255, 255, 255);
   //  let increment = 2*Math.PI/STEPS_PER_ROTATION;		
     newX = centerX + theta * Math.cos(theta) * gap; 
     newY = centerY + theta * Math.sin(theta) * gap; 
